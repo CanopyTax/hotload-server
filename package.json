@@ -1,0 +1,25 @@
+{
+  "name": "hotload-server",
+  "version": "1.0.0",
+  "description": "A web server for hotloading SystemJS bundles",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CanopyTax/hotload-server.git"
+  },
+  "author": "Joel Denning",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/CanopyTax/hotload-server/issues"
+  },
+  "bin": {
+    "hotload-server": "./src/cli.js"
+  },
+  "homepage": "https://github.com/CanopyTax/hotload-server#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
