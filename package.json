@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/CanopyTax/hotload-server#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "body-parser": "^1.15.2",
+    "chokidar": "^1.6.1",
+    "commander": "^2.9.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "serve-static": "^1.11.1"
   }
 }
